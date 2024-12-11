@@ -38,7 +38,11 @@ To accommodate multiple AI-BC nodes, our approach integrates key technologies to
   - Machine Learning Toolbox  
   - Optimization Toolbox  
   - Power System Toolbox (optional)  
-- Install any additional dependencies mentioned in the repository.  
+- Install any additional dependencies mentioned in the repository.
+- Windows PowerShell
+- Open Ethereum-windows-v3.1.0
+- Docker 4.36
+- Postman 10.5.2 
 
 ### 3. **Run the ML Agent**  
 - Open `ml_agent.m` in MATLAB.  
