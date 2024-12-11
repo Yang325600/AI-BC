@@ -1,0 +1,13 @@
+[parity]
+chain = "C:/project/openethereum-windows-v3.1.0/demo-spec.json"
+base_path = "C:/project/openethereum-windows-v3.1.0/data0"
+[network]
+port = 30300
+[rpc]
+port = 8540
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "parity_accounts"]
+cors = ["http://localhost","http://localhost:8001"]
+[websockets]
+port = 8450
+[account]
+password = ["C:/project/openethereum-windows-v3.1.0/node.pwds"]

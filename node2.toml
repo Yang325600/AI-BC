@@ -1,0 +1,19 @@
+[parity]
+chain = "C:/project/openethereum-windows-v3.1.0/demo-spec.json"
+base_path = "C:/project/openethereum-windows-v3.1.0/data2"
+[network]
+port = 30302
+[rpc]
+port = 8542
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "parity_accounts"]
+cors = ["https://remix.ethereum.org/"]
+
+[websockets]
+port = 8452
+
+[account]
+password = ["C:/project/openethereum-windows-v3.1.0/node.pwds"]
+
+[mining]
+engine_signer = "0x990575825470f01582386dbfb1fead494dff139d"
+reseal_on_txs = "none"
