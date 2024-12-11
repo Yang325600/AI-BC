@@ -23,9 +23,7 @@ This repository hosts MATLAB-based code and resources for integrating Artificial
 - Essential for power flow calculations and network simulations.  
 
 ### 4. **Blockchain Framework**  
-- **Block Generation**: MATLAB scripts generate blocks containing system events.  
-- **Block Mining**: Implements validation algorithms for adding new blocks.  
-- **Verification Mechanism**: Ensures data integrity and secures blockchain transactions against tampering.  
+To accommodate multiple AI-BC nodes, our approach integrates key technologies to ensure scalability, flexibility, and security. Windows PowerShell, combined with open Ethereum-windows-v3.1.0 (we uploaded all node settings and ethkeys to GitHub), enables decentralized and collaborative node operations. Nodes are deployed in isolated environments using Docker 4.36, which facilitates dynamic scaling, conflict-free operation, and resource adjustments via a visualized interface. Additionally, Postman 10.5.2 is utilized for API-based communication, ensuring standardized, secure, and efficient data exchange and task distribution. 
 
 ## Getting Started  
 
